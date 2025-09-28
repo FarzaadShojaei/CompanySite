@@ -2,6 +2,7 @@
   width: 100%;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .services-hero {
@@ -243,12 +244,14 @@
 .request-form input,
 .request-form textarea {
   width: 100%;
+  max-width: 100%;
   padding: 15px;
   border: 2px solid #e9ecef;
   border-radius: 10px;
   font-size: 1rem;
   transition: all 0.3s ease;
   background-color: #f8f9fa;
+  box-sizing: border-box;
 }
 
 .request-form input:focus,
