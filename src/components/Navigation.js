@@ -22,11 +22,17 @@ const Navigation = () => {
           <Link to="/about" className="nav-link" onClick={toggleMenu}>
             About
           </Link>
-          <Link to="/products" className="nav-link" onClick={toggleMenu}>
-            Products
-          </Link>
           <Link to="/services" className="nav-link" onClick={toggleMenu}>
             Services
+          </Link>
+          <Link to="/portfolio" className="nav-link" onClick={toggleMenu}>
+            Portfolio
+          </Link>
+          <Link to="/blog" className="nav-link" onClick={toggleMenu}>
+            Blog
+          </Link>
+          <Link to="/team" className="nav-link" onClick={toggleMenu}>
+            Team
           </Link>
           <Link to="/contact" className="nav-link" onClick={toggleMenu}>
             Contact
