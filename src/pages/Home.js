@@ -67,6 +67,18 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="quick-navigation-section">
+        <h2 className="section-title">Quick Navigation</h2>
+        <div className="nav-buttons-grid">
+          <a href="/about" className="nav-btn">👥 About Us</a>
+          <a href="/services" className="nav-btn">🛠️ Our Services</a>
+          <a href="/portfolio" className="nav-btn">💼 Portfolio</a>
+          <a href="/blog" className="nav-btn">📝 Blog</a>
+          <a href="/team" className="nav-btn">👨‍💼 Meet Our Team</a>
+          <a href="/contact" className="nav-btn">📞 Contact Us</a>
+        </div>
+      </section>
+
       <section className="theme-section">
         <h2 className="section-title">Choose Your Theme</h2>
         <div className="theme-buttons">

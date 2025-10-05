@@ -142,6 +142,40 @@
   background: #f8f9fa;
 }
 
+.quick-navigation-section {
+  padding: 80px 0;
+  background: white;
+  text-align: center;
+}
+
+.nav-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-btn {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
 .features-section .section-title {
   color: #2c3e50;
   margin-bottom: 4rem;
