@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
+import TestingBanner from './components/TestingBanner';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -12,6 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <TestingBanner />
         <Navigation />
         <main className="main-content">
           <Routes>
